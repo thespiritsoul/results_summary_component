@@ -1,26 +1,49 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* --font-Hanken-Grotesk */
+/* - Weights: 500, 700, 800 */
+
+/* ## Colors */
+/* ### Primary */
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+
+--Light-red-t: hsla(0, 100%, 67%, 0.1);
+--Orangey-yellow-t: hsla(39, 100%, 56%, 0.1);
+--Green-teal-t: hsla(166, 100%, 37%, 0.1);
+--Cobalt-blue-t: hsla(234, 85%, 45%, 0.1);
+
+/* ## Gradients */
+
+--Light-slate-blue-background: hsl(252, 100%, 67%);
+--Light-royal-blue-background: hsl(241, 81%, 54%);
+
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+
+/* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-Hanken-Grotesk);
+  background: var(--Pale-blue);
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
 }

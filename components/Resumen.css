@@ -1,0 +1,55 @@
+.resumen{
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Rojo{
+    color: var(--Light-red);
+    background-color: var(--Light-red-t);
+}
+.Amarillo{
+    color: var(--Orangey-yellow);
+    background-color: var(--Orangey-yellow-t);
+}
+.Verde{
+    color: var(--Green-teal);
+    background-color: var(--Green-teal-t);
+}
+.Azul{
+    color: var(--Cobalt-blue);
+    background-color: var(--Cobalt-blue-t);
+}
+
+.icono{
+    width: 20px;
+    height: 20px;
+}
+
+.izq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.der{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.resultadoContenedor{
+    color: var(--Dark-gray-blue);
+    display:flex;
+    gap: 8px;
+    
+}
+
+.resultado{
+    display:flex;
+    font-weight: 700;
+}

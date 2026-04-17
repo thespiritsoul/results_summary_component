@@ -1,0 +1,14 @@
+.tarjeta{
+    background-color: var(--White);
+    border-radius: 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:641px) {
+    .tarjeta{
+        width: 640px;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,19 @@
+.boton{
+    border-radius: 20px;
+    color: var(--White);
+    background-color: var(--Dark-gray-blue);
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.boton:active{
+    background: linear-gradient(to bottom,
+    var(--Light-slate-blue-background),
+    var(--Light-royal-blue-background));
+}
